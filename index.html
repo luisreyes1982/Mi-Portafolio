@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap 5.1 CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Mi Estilo CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">M</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Sobre-mi">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Experiencia">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Trabajos">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="Hero-Section">
+        <div class="container text-center text-white">
+            <h1>YO SOY</h1>
+            <hr class="hero-line mx-auto opacity-100">
+            <h1>MAGDALENA</h1>
+        </div>
+
+
+    </header>
+
+    <section id="Sobre-mi" class="pt-5 container d-none d-sm-block">
+        <!--Para que el texto desaparezca en la version movil, se agregan las clases de bootstrap d-none y d-sm-block-->
+        <div>
+            <h4 class="text-center fw-bold">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim quae doloribus repellat quis soluta!
+                Repudiandae consectetur expedita beatae officiis dolore inventore, quo, ea harum debitis quod illo
+                voluptas, magni tenetur.
+            </h4>
+            <hr class="opacity-100 w-25 mx-auto">
+        </div>
+
+        <div class="row pt-3">
+            <div class="col-6">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem laborum dignissimos
+                    quam dolores facilis tempora at aperiam sequi rerum consequuntur, aliquam sapiente reiciendis et?
+                    Eligendi commodi earum corporis voluptate?
+                </p>
+            </div>
+            <div class="col-6">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim eum sit omnis ex id numquam pariatur.
+                    Nam autem, minima aspernatur quae quasi sapiente perspiciatis culpa atque non, cumque eveniet
+                    deserunt.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Experiencia" class="py-5 container text-center">
+        <div>
+            <h1 class="fw-bold text-uppercase">mi experiencia</h1>
+            <hr class="opacity-100 mx-auto w-25">
+        </div>
+
+        <div class="row pt-3">
+            <!--Con col-12 es para colocarse en la fila uno al lado del otro y en movil sea uno debajo de otro y col-sm-6 para que en movil se coloque uno al lado del otro-->
+            <article class="col-12 col-sm-6">
+                <!--Con la clase fa-10x se incrementa el tamano del icono - ToolTips data-bs-placement="top" el sitio y title="Texto que aparecera"-->
+                <i class="fa-brands fa-empire fa-10x" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Icono Stormtrooper"></i>></i>
+                <h4 class="fw-bold mt-3">Stormtrooper</h4>
+                <h4>1980 - 2014</h4>
+            </article>
+            <article class="col-12 col-sm-6">
+                <i class="fa-brands fa-medium fa-10x" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Icono Desarrolladora Rails"></i>
+                <h4 class="fw-bold mt-3">Desarrolladora Rails</h4>
+                <h4>2014 - 2018</h4>
+            </article>
+        </div>
+
+
+        </div>
+
+    </section>
+
+    <section id="Trabajos" class="py-5">
+        <div>
+            <h1 class="fw-bold text-center text-uppercase mt-2 text-white">mis ultimos trabajos</h1>
+            <hr class="bg-white opacity-100 mx-auto w-25">
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/meet_coffee.png" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Meet&Coffee</h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat ratione cumque, nobis
+                                debitis omnis saepe commodi expedita obcaecati non quod sunt autem modi quas nisi. Ullam
+                                similique quo rerum est.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/iguana_page.png" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Iguana</h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat ratione cumque, nobis
+                                debitis omnis saepe commodi expedita obcaecati non quod sunt autem modi quas nisi. Ullam
+                                similique quo rerum est.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/suricata.png" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Suricata</h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat ratione cumque, nobis
+                                debitis omnis saepe commodi expedita obcaecati non quod sunt autem modi quas nisi. Ullam
+                                similique quo rerum est.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/cuppon.png" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Cuppon</h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat ratione cumque, nobis
+                                debitis omnis saepe commodi expedita obcaecati non quod sunt autem modi quas nisi. Ullam
+                                similique quo rerum est.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/ricomida.png" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Ricomida</h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat ratione cumque, nobis
+                                debitis omnis saepe commodi expedita obcaecati non quod sunt autem modi quas nisi. Ullam
+                                similique quo rerum est.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/dmark.png" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Dmark</h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat ratione cumque, nobis
+                                debitis omnis saepe commodi expedita obcaecati non quod sunt autem modi quas nisi. Ullam
+                                similique quo rerum est.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="Contacto" class="container text-center py-5">
+        <div class="mb-5">
+            <h1 class="fw-bold text-uppercase">Contacto</h1>
+            <hr class="opacity-100 w-25 mx-auto">
+        </div>
+        <div>
+            <p>Quieres conocer mas de mi?</p>
+            <a target="_blank" href="https://sbhkpjj6izv.typeform.com/to/NrgFLnr3">
+                <button class="btn bg-secondary text-white">Comenzar</button>
+            </a>
+        </div>
+    </section>
+
+    <footer id="Footer" class="text-center text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <h1 class="fw-bold text-uppercase">magdalena</h1>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <a href="#">
+                        <!--Con fa-3x para el tamano del icono y mx-2 separacion horizontal entre ellos-->
+                        <i class="fa-brands fa-github fa-3x mx-2"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin fa-3x mx-2"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter fa-3x mx-2"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook fa-3x mx-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!--Bundle Bootstrap 5.1-JS-Popper-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!--Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!--Mi Script JS-->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
